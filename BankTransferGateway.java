@@ -1,5 +1,8 @@
 import java.util.*;
 
+/**
+ * Payment gateway implementation for bank transfers.
+ */
 class BankTransferGateway implements PaymentGateway {
     private String endpoint;
 

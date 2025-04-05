@@ -1,5 +1,8 @@
 import java.util.*;
 
+/**
+ * Main application demonstrating usage of the payment processor.
+ */
 class MainApp {
     public static void main(String[] args) {
         Map<String, String> customer = Map.of("name", "John Doe", "email", "john@example.com");

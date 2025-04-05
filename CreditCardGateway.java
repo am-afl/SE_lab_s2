@@ -1,5 +1,7 @@
 import java.util.*;
-
+/**
+ * Payment gateway implementation for credit card.
+ */
 class CreditCardGateway implements PaymentGateway {
     private String endpoint;
 

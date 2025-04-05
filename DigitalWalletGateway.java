@@ -1,5 +1,8 @@
 import java.util.*;
 
+/**
+ * Payment gateway implementation for digital wallets.
+ */
 class DigitalWalletGateway implements PaymentGateway {
     private String endpoint;
 
