@@ -1,8 +1,20 @@
 import java.util.Map;
 
+/**
+ * Abstract base class providing common functionality for payment gateways.
+ */
 public abstract class BaseGateway implements PaymentGateway {
+    /**
+     * The API endpoint for the gateway.
+     */
+
     protected String endpoint;
 
+    /**
+     * Constructs a BaseGateway with the given endpoint.
+     *
+     * @param endpoint the API endpoint
+     */
     public BaseGateway(String endpoint) {
         this.endpoint = endpoint;
     }

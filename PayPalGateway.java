@@ -1,7 +1,15 @@
 import java.util.Date;
 import java.util.Map;
 
+/**
+ * Payment gateway implementation for PayPal.
+ */
 public class PayPalGateway extends BaseGateway {
+    /**
+     * Constructs a PayPalGateway with the given endpoint.
+     *
+     * @param endpoint the PayPal API endpoint
+     */
     public PayPalGateway(String endpoint) {
         super(endpoint);
     }

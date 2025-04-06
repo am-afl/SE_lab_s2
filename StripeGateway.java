@@ -1,7 +1,15 @@
 import java.util.Date;
 import java.util.Map;
 
+/**
+ * Payment gateway implementation for Stripe.
+ */
 public class StripeGateway extends BaseGateway {
+    /**
+     * Constructs a StripeGateway with the given endpoint.
+     *
+     * @param endpoint the Stripe API endpoint
+     */
     public StripeGateway(String endpoint) {
         super(endpoint);
     }

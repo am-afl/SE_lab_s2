@@ -1,5 +1,8 @@
 import java.util.Map;
 
+/**
+ * Entry point for demonstrating payment gateway usage.
+ */
 public class Main {
     public static void main(String[] args) {
         Map<String, String> customer = Map.of("name", "John Doe", "email", "john@example.com");
