@@ -60,9 +60,7 @@ public class Main
 
 ###  اصول شی‌گرایی پیاده‌سازی‌شده
 
-| اصل                | نحوه پیاده‌سازی                                                                 |
-|--------------------|----------------------------------------------------------------------------------|
-| **Encapsulation**   | اطلاعات محرمانه‌ی هر درگاه و عملیات مربوطه در کلاس‌های جداگانه نگهداری می‌شوند.     |
-| **Abstraction**     | رابط `PaymentGateway` عملیات انتزاعی سیستم پرداخت را تعریف می‌کند.               |
-| **Inheritance**     | کلاس‌های `StripeGateway` و `PayPalGateway` از `BaseGateway` ارث‌بری می‌کنند.       |
-| **Polymorphism**    | کلاس `PaymentProcessor` از طریق شی‌ای از نوع `PaymentGateway` با همه درگاه‌ها کار می‌کند. |
+- اصل Encapsulation :اطلاعات محرمانه‌ی هر درگاه و عملیات مربوطه در کلاس‌های جداگانه نگهداری می‌شوند. 
+- اصل Abstraction : رابط `PaymentGateway` عملیات انتزاعی سیستم پرداخت را تعریف می‌کند.
+- اصل Inheritance : کلاس‌های `StripeGateway` و `PayPalGateway` از `BaseGateway` ارث‌بری می‌کنند.
+- اصل Polymorphism : کلاس `PaymentProcessor` از طریق شی‌ای از نوع `PaymentGateway` با همه درگاه‌ها کار می‌کند.
